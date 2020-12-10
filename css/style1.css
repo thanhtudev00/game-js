@@ -14,7 +14,7 @@
 
 body {
   background-image: linear-gradient(rgba(146, 66, 66, 0.5), rgba(0, 0, 0, 0.5)),
-    url("anh11111.jpg");
+    url("../imgs/anh11111.jpg");
   background-position: center;
   background-size: cover;
   width: 100%;
