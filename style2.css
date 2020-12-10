@@ -1,0 +1,197 @@
+@import url("https://fonts.google.com/specimen/Roboto?sidebar.open=true&selection.family=Roboto:wght@300;400");
+
+:root {
+  background-color: white;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(rgba(146, 66, 66, 0.5), rgba(0, 0, 0, 0.5)),
+    url("maaaaa.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.title_h3 {
+  font-size: 45px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+h1 {
+  font-size: 5.4rem;
+  color: #ffff4d;
+  margin-bottom: 5rem;
+  /* box-shadow: 0 0.4rem 1.4rem 0 #ffcc80; */
+  /* transition: transform 150ms;
+  transform: scale(1.03); */
+}
+
+h2 {
+  font-size: 4.2rem;
+  margin-bottom: 4rem;
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  font-size: 2.4rem;
+  padding: 2rem 0;
+  width: 30rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: white;
+  /* background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%); */
+  background-color: #ffad33;
+  border-radius: 50px;
+}
+
+.btn-1 {
+  background-color: #cc66ff;
+}
+.btn-1:hover {
+  background-color: #e6b3ff;
+}
+.btn-2 {
+  background-color: #3366ff;
+}
+.btn-2:hover {
+  background-color: #809fff;
+}
+.btn-3 {
+  background-color: #ff0066;
+}
+.btn-3:hover {
+  background-color: #ff4d94;
+}
+.btn-4 {
+  background-color: #0099cc;
+}
+.btn-4:hover {
+  background-color: #00bfff;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 #ffcc80;
+  transition: transform 150ms;
+  transform: scale(1.03);
+}
+
+.btn[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+#highscore-btn {
+  /* background: linear-gradient(90deg, rgb(255, 247, 9) 0%, rgb(240, 221, 6) 100%); */
+  background-color: #ffff00;
+  color: black;
+}
+
+#highscore-btn:hover {
+  box-shadow: 0 0.4rem 1.4rem 0 #ffff66;
+}
+
+.fa-crown {
+  font-size: 2.5rem;
+  margin-left: 1rem;
+}
+
+/* End Page CSS */
+.end-form-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 30rem;
+}
+
+input {
+  margin-bottom: 1rem;
+  width: 20rem;
+  padding: 1.5rem;
+  font-size: 1.8rem;
+  border: none;
+  box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+#username {
+  margin-bottom: 3rem;
+  width: 100%;
+  outline: none;
+}
+
+#end-text {
+  font-size: 2.4rem;
+  color: #fff;
+  text-align: center;
+}
+
+#saveScoreBtn {
+  border: none;
+}
+
+.fa-home {
+  margin-left: 1rem;
+  font-size: 2rem;
+  color: rgb(28, 26, 26);
+}
+
+.po {
+  position: absolute;
+  top: 14%;
+  left: 70%;
+}
+
+.po1 {
+  position: absolute;
+  top: 50%;
+  right: 85%;
+}
